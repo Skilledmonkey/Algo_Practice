@@ -1,0 +1,5 @@
+/*
+    forEach coulmn reverse the order 
+    STORE temp values for each of the columns and then overwrite them 
+    forEach   
+*/
