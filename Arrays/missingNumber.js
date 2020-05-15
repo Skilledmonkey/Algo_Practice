@@ -14,9 +14,7 @@ var missingNumber = function(nums) {
     for (let i = 0; i < nums.length; i++) {
         let shouldBeNextNumber = nums[i] + 1
 
-        if (nums[i+1] === shouldBeNextNumber) {
-            console.log("["+nums[i]+"]" + "next number exists" )
-        } else {     
+        if (!(nums[i+1] === shouldBeNextNumber)) {  
             return shouldBeNextNumber
         }
     }
