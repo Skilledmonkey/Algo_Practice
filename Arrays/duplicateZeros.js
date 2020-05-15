@@ -17,7 +17,7 @@ var duplicateZeros = function(arr) {
             arr.pop()
         }
     }
-     return arr
+    return arr
 };
 
 console.log(duplicateZeros(test1))

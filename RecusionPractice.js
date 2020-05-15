@@ -1,19 +1,4 @@
-var reorderLogFiles = function(logs) {
-    let reOrdered = [];
-    let lexicalLogs = [];
-    // sort the lexical alphabetically 
-    
-    logs.forEach(log => {
-        if (log[0] === "l") {          
-            lexicalLogs.push(log)
-        } else {
-            reOrdered.push(log)
-        }
-    });
-    return reOrdered
-};
 
-// reorderLogFiles(["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"])
 
 //1. Write a function that loops through the numbers n down to 0. If you haven't done so try using a while loop to do this.
 let array = [1,2,3,4,5,6,7,8,9]
